@@ -1,0 +1,870 @@
+INFO 2024-06-11 17:46:40,041 autoreload 18976 2036 Watching for file changes with StatReloader
+DEBUG 2024-06-11 17:46:56,529 views 18976 15796 Start page about
+INFO 2024-06-11 17:46:56,530 basehttp 18976 15796 "GET /about/ HTTP/1.1" 200 89
+DEBUG 2024-06-11 17:46:57,567 views 18976 15796 Start page about
+INFO 2024-06-11 17:46:57,568 basehttp 18976 15796 "GET /about/ HTTP/1.1" 200 89
+INFO 2024-06-11 17:47:03,715 views 18976 15796 Start page name
+INFO 2024-06-11 17:47:03,716 basehttp 18976 15796 "GET / HTTP/1.1" 200 101
+INFO 2024-06-23 20:08:18,127 autoreload 16604 11080 Watching for file changes with StatReloader
+INFO 2024-06-23 20:08:33,033 views 16604 2932 Start page name
+INFO 2024-06-23 20:08:33,035 basehttp 16604 2932 "GET / HTTP/1.1" 200 101
+WARNING 2024-06-23 20:08:33,373 log 16604 2932 Not Found: /favicon.ico
+WARNING 2024-06-23 20:08:33,374 basehttp 16604 2932 "GET /favicon.ico HTTP/1.1" 404 2447
+INFO 2024-06-23 21:10:26,195 autoreload 20680 14292 Watching for file changes with StatReloader
+INFO 2024-06-23 21:22:39,158 autoreload 6688 11360 Watching for file changes with StatReloader
+INFO 2024-06-23 21:23:08,972 autoreload 6688 11360 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\hometaskproject\urls.py changed, reloading.
+INFO 2024-06-23 21:23:09,742 autoreload 3756 13968 Watching for file changes with StatReloader
+INFO 2024-06-23 21:23:14,030 autoreload 3756 13968 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\hometaskproject\urls.py changed, reloading.
+INFO 2024-06-23 21:23:28,701 autoreload 13008 22340 Watching for file changes with StatReloader
+INFO 2024-06-23 21:24:28,467 basehttp 13008 400 "GET /seminar3 HTTP/1.1" 301 0
+ERROR 2024-06-23 21:24:28,585 log 13008 11328 Internal Server Error: /seminar3/
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view seminar3.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-06-23 21:24:28,589 basehttp 13008 11328 "GET /seminar3/ HTTP/1.1" 500 67210
+INFO 2024-06-23 21:25:12,027 basehttp 13008 11328 "GET /about HTTP/1.1" 301 0
+DEBUG 2024-06-23 21:25:12,037 views 13008 8796 Start page about
+INFO 2024-06-23 21:25:12,038 basehttp 13008 8796 "GET /about/ HTTP/1.1" 200 89
+ERROR 2024-06-23 21:25:21,391 log 13008 8796 Internal Server Error: /seminar3/
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view seminar3.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-06-23 21:25:21,395 basehttp 13008 8796 "GET /seminar3/ HTTP/1.1" 500 67210
+INFO 2024-06-23 21:26:14,890 autoreload 19884 5924 Watching for file changes with StatReloader
+ERROR 2024-06-23 21:26:20,600 log 19884 9000 Internal Server Error: /seminar3/
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view seminar3.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-06-23 21:26:20,602 basehttp 19884 9000 "GET /seminar3/ HTTP/1.1" 500 67347
+INFO 2024-06-23 21:27:20,837 autoreload 19884 5924 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:27:21,354 autoreload 11816 5516 Watching for file changes with StatReloader
+INFO 2024-06-23 21:27:22,752 autoreload 11816 5516 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:27:23,324 autoreload 1472 15860 Watching for file changes with StatReloader
+INFO 2024-06-23 21:27:25,375 autoreload 1472 15860 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:27:25,909 autoreload 21864 15984 Watching for file changes with StatReloader
+INFO 2024-06-23 21:27:31,459 autoreload 21864 15984 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:27:31,963 autoreload 11064 2300 Watching for file changes with StatReloader
+INFO 2024-06-23 21:27:34,405 autoreload 11064 2300 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:27:34,937 autoreload 8384 8880 Watching for file changes with StatReloader
+INFO 2024-06-23 21:27:38,415 autoreload 8384 8880 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:27:38,973 autoreload 15880 15556 Watching for file changes with StatReloader
+INFO 2024-06-23 21:27:43,524 autoreload 15880 15556 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:27:44,121 autoreload 13180 14332 Watching for file changes with StatReloader
+INFO 2024-06-23 21:27:46,360 autoreload 13180 14332 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:27:46,831 autoreload 22016 16580 Watching for file changes with StatReloader
+INFO 2024-06-23 21:27:56,501 autoreload 22016 16580 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:27:57,004 autoreload 21048 6048 Watching for file changes with StatReloader
+INFO 2024-06-23 21:28:00,753 autoreload 21048 6048 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:28:01,309 autoreload 3332 1472 Watching for file changes with StatReloader
+INFO 2024-06-23 21:28:02,722 autoreload 3332 1472 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:28:03,235 autoreload 22112 6248 Watching for file changes with StatReloader
+INFO 2024-06-23 21:28:05,849 autoreload 22112 6248 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:28:06,377 autoreload 9528 7132 Watching for file changes with StatReloader
+INFO 2024-06-23 21:28:10,884 autoreload 9528 7132 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:28:11,389 autoreload 7304 21028 Watching for file changes with StatReloader
+INFO 2024-06-23 21:28:14,008 autoreload 7304 21028 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:28:14,502 autoreload 2992 6644 Watching for file changes with StatReloader
+INFO 2024-06-23 21:28:23,176 autoreload 2992 6644 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:28:23,690 autoreload 20756 5924 Watching for file changes with StatReloader
+INFO 2024-06-23 21:28:29,655 autoreload 20756 5924 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 21:28:30,236 autoreload 396 7400 Watching for file changes with StatReloader
+ERROR 2024-06-23 21:28:30,807 log 396 2932 Internal Server Error: /seminar3/
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py", line 20, in index
+    return render(request, 'seminar3/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'end', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-06-23 21:28:30,822 basehttp 396 2932 "GET /seminar3/ HTTP/1.1" 500 169154
+INFO 2024-06-23 21:28:53,780 autoreload 19444 12144 Watching for file changes with StatReloader
+ERROR 2024-06-23 21:30:01,481 log 19444 1676 Internal Server Error: /seminar3/
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py", line 20, in index
+    return render(request, 'seminar3/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 6: 'end', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-06-23 21:30:01,515 basehttp 19444 1676 "GET /seminar3/ HTTP/1.1" 500 169017
+INFO 2024-06-23 21:30:55,990 basehttp 19444 1676 "GET /seminar3/ HTTP/1.1" 200 300
+INFO 2024-06-23 23:39:05,575 autoreload 7320 13196 Watching for file changes with StatReloader
+INFO 2024-06-23 23:39:26,132 basehttp 7320 7372 "GET /seminar3/ HTTP/1.1" 200 300
+INFO 2024-06-23 23:39:35,745 basehttp 7320 7372 "GET /seminar3/order HTTP/1.1" 301 0
+INFO 2024-06-23 23:39:35,757 basehttp 7320 9184 "GET /seminar3/order/ HTTP/1.1" 200 301
+INFO 2024-06-23 23:40:31,429 autoreload 7320 13196 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:40:31,934 autoreload 20472 5532 Watching for file changes with StatReloader
+ERROR 2024-06-23 23:40:38,328 log 20472 13124 Internal Server Error: /seminar3/order/1
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py", line 29, in orders
+    weekly_orders = order.filter(order_data__gte=today-timedelta(days=7))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'order_data' into field. Choices are: date_order, id, order_klient, order_klient_id, order_product, order_summ
+ERROR 2024-06-23 23:40:38,335 basehttp 20472 13124 "GET /seminar3/order/1 HTTP/1.1" 500 108923
+INFO 2024-06-23 23:45:34,356 autoreload 20472 5532 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:45:35,018 autoreload 15564 15720 Watching for file changes with StatReloader
+INFO 2024-06-23 23:45:37,964 autoreload 15564 15720 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:45:38,513 autoreload 7296 9136 Watching for file changes with StatReloader
+INFO 2024-06-23 23:45:49,254 autoreload 7296 9136 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:45:49,765 autoreload 8704 8876 Watching for file changes with StatReloader
+INFO 2024-06-23 23:45:51,235 autoreload 8704 8876 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:45:52,859 autoreload 12416 3656 Watching for file changes with StatReloader
+INFO 2024-06-23 23:46:04,672 autoreload 15720 15564 Watching for file changes with StatReloader
+ERROR 2024-06-23 23:46:15,905 log 15720 16544 Internal Server Error: /seminar3/order/1
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py", line 29, in orders
+    weekly_orders = order.filter(order_date__gte=today-timedelta(days=7))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'order_date' into field. Choices are: date_order, id, order_klient, order_klient_id, order_product, order_summ
+ERROR 2024-06-23 23:46:15,913 basehttp 15720 16544 "GET /seminar3/order/1 HTTP/1.1" 500 109060
+INFO 2024-06-23 23:50:14,852 autoreload 15720 15564 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:50:15,468 autoreload 16424 11672 Watching for file changes with StatReloader
+INFO 2024-06-23 23:50:19,006 autoreload 16424 11672 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:50:19,539 autoreload 22340 19948 Watching for file changes with StatReloader
+INFO 2024-06-23 23:50:28,247 autoreload 22340 19948 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:50:28,827 autoreload 7424 3360 Watching for file changes with StatReloader
+INFO 2024-06-23 23:50:38,175 basehttp 7424 7716 "GET /seminar3/order/1 HTTP/1.1" 200 311
+INFO 2024-06-23 23:51:41,396 autoreload 7424 3360 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:51:42,220 autoreload 23136 23140 Watching for file changes with StatReloader
+INFO 2024-06-23 23:51:47,560 basehttp 23136 23380 "GET /seminar3/order/1 HTTP/1.1" 200 315
+INFO 2024-06-23 23:54:21,988 autoreload 14372 3712 Watching for file changes with StatReloader
+INFO 2024-06-23 23:54:28,878 basehttp 14372 20452 "GET /seminar3/order/ HTTP/1.1" 200 301
+INFO 2024-06-23 23:54:34,963 basehttp 14372 20452 "GET /seminar3/order/1 HTTP/1.1" 200 315
+INFO 2024-06-23 23:55:01,266 basehttp 14372 20452 "GET /seminar3/ HTTP/1.1" 200 300
+INFO 2024-06-23 23:55:31,125 basehttp 14372 20452 "GET /seminar3/order/ HTTP/1.1" 200 301
+INFO 2024-06-23 23:56:30,757 basehttp 14372 20452 "GET /seminar3/order/2 HTTP/1.1" 200 317
+INFO 2024-06-23 23:57:42,642 basehttp 14372 20452 "GET /seminar3/order/ HTTP/1.1" 200 301
+INFO 2024-06-23 23:57:48,110 basehttp 14372 20452 "GET /seminar3/order/1 HTTP/1.1" 200 315
+INFO 2024-06-23 23:58:18,305 autoreload 14372 3712 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:58:18,857 autoreload 14192 3648 Watching for file changes with StatReloader
+INFO 2024-06-23 23:58:21,332 autoreload 14192 3648 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:58:21,847 autoreload 23528 22868 Watching for file changes with StatReloader
+INFO 2024-06-23 23:58:23,298 autoreload 23528 22868 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:58:23,794 autoreload 23400 23068 Watching for file changes with StatReloader
+INFO 2024-06-23 23:58:31,170 autoreload 23400 23068 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:58:31,692 autoreload 13732 22864 Watching for file changes with StatReloader
+INFO 2024-06-23 23:58:32,929 autoreload 13732 22864 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-23 23:58:36,585 autoreload 5956 23340 Watching for file changes with StatReloader
+INFO 2024-06-24 00:00:08,470 basehttp 5956 17952 "GET /seminar3/order/1 HTTP/1.1" 200 315
+INFO 2024-06-24 00:00:13,776 basehttp 5956 17952 "GET /seminar3/order/ HTTP/1.1" 200 301
+INFO 2024-06-24 00:01:41,129 basehttp 5956 17952 "GET /seminar3/ HTTP/1.1" 200 300
+INFO 2024-06-24 00:02:40,919 autoreload 5956 23340 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 00:02:41,465 autoreload 22668 22020 Watching for file changes with StatReloader
+INFO 2024-06-24 00:03:54,559 basehttp 22668 13208 "GET /seminar3/order/ HTTP/1.1" 200 301
+INFO 2024-06-24 00:05:54,065 autoreload 21476 7132 Watching for file changes with StatReloader
+INFO 2024-06-24 00:06:03,588 basehttp 21476 21188 "GET /seminar3/order/ HTTP/1.1" 200 301
+INFO 2024-06-24 00:09:57,716 basehttp 21476 21188 "GET /seminar3/order/ HTTP/1.1" 200 301
+INFO 2024-06-24 00:10:09,106 basehttp 21476 21188 "GET /seminar3/ HTTP/1.1" 200 300
+INFO 2024-06-24 00:10:33,404 basehttp 21476 21188 "GET /seminar3/order/ HTTP/1.1" 200 301
+INFO 2024-06-24 00:12:00,366 autoreload 21476 7132 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 00:12:00,938 autoreload 14312 15720 Watching for file changes with StatReloader
+INFO 2024-06-24 00:12:12,702 autoreload 14312 15720 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 00:12:13,467 autoreload 11320 13996 Watching for file changes with StatReloader
+INFO 2024-06-24 00:12:14,710 autoreload 11320 13996 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 00:12:15,271 autoreload 22672 17952 Watching for file changes with StatReloader
+INFO 2024-06-24 00:12:31,762 basehttp 22672 22880 "GET /seminar3/order/1 HTTP/1.1" 200 315
+INFO 2024-06-24 00:24:03,020 autoreload 22532 21920 Watching for file changes with StatReloader
+INFO 2024-06-24 00:24:09,766 basehttp 22532 23036 "GET /seminar3/ HTTP/1.1" 200 300
+INFO 2024-06-24 00:25:10,079 autoreload 22908 12928 Watching for file changes with StatReloader
+INFO 2024-06-24 00:25:13,397 basehttp 22908 23036 "GET /seminar3/ HTTP/1.1" 200 300
+INFO 2024-06-24 00:25:32,777 basehttp 22908 23036 "GET /seminar3/order/ HTTP/1.1" 200 267
+INFO 2024-06-24 00:25:57,724 basehttp 22908 23036 "GET /seminar3/ HTTP/1.1" 200 300
+INFO 2024-06-24 00:26:13,379 basehttp 22908 23036 "GET /seminar3/ HTTP/1.1" 200 267
+INFO 2024-06-24 00:26:24,052 basehttp 22908 23036 "GET /seminar3/ HTTP/1.1" 200 300
+INFO 2024-06-24 00:27:30,430 basehttp 22908 23036 "GET /seminar3/order/ HTTP/1.1" 200 285
+INFO 2024-06-24 00:28:19,642 basehttp 22908 23036 "GET /seminar3/order/1 HTTP/1.1" 200 433
+INFO 2024-06-24 00:28:48,670 basehttp 22908 23036 "GET /seminar3/order/1 HTTP/1.1" 200 444
+INFO 2024-06-24 00:29:30,243 basehttp 22908 23036 "GET /seminar3/order/1 HTTP/1.1" 200 381
+INFO 2024-06-24 00:29:51,427 basehttp 22908 23036 "GET /seminar3/order/ HTTP/1.1" 200 367
+INFO 2024-06-24 00:32:28,345 autoreload 13492 3648 Watching for file changes with StatReloader
+INFO 2024-06-24 00:32:34,938 basehttp 13492 21912 "GET /seminar3/order/1 HTTP/1.1" 200 381
+INFO 2024-06-24 00:33:06,499 basehttp 13492 21912 "GET /seminar3/order/1 HTTP/1.1" 200 377
+INFO 2024-06-24 00:33:37,412 basehttp 13492 21912 "GET /seminar3/order/ HTTP/1.1" 200 363
+ERROR 2024-06-24 00:44:54,851 log 13492 11596 Internal Server Error: /seminar3/order/1
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py", line 51, in orders
+    return render(request, 'seminar3/order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\defaulttags.py", line 840, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should have at least four words: for pr or.order_product.all
+ERROR 2024-06-24 00:44:54,880 basehttp 13492 11596 "GET /seminar3/order/1 HTTP/1.1" 500 244820
+INFO 2024-06-24 00:47:23,106 autoreload 11768 19376 Watching for file changes with StatReloader
+INFO 2024-06-24 00:47:29,682 basehttp 11768 7520 "GET /seminar3/order/1 HTTP/1.1" 200 377
+INFO 2024-06-24 01:05:52,443 autoreload 13144 13196 Watching for file changes with StatReloader
+ERROR 2024-06-24 01:06:09,421 log 13144 1276 Internal Server Error: /seminar3/orders/1/7
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: orders() got an unexpected keyword argument 'days_order'
+ERROR 2024-06-24 01:06:09,425 basehttp 13144 1276 "GET /seminar3/orders/1/7 HTTP/1.1" 500 62837
+ERROR 2024-06-24 01:09:40,492 log 13144 1276 Internal Server Error: /seminar3/orders/1/7
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: orders() got an unexpected keyword argument 'days_order'
+ERROR 2024-06-24 01:09:40,495 basehttp 13144 1276 "GET /seminar3/orders/1/7 HTTP/1.1" 500 62974
+INFO 2024-06-24 01:12:07,659 autoreload 13144 13196 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:12:08,348 autoreload 3768 23260 Watching for file changes with StatReloader
+ERROR 2024-06-24 01:12:40,442 log 3768 9464 Internal Server Error: /seminar3/orders/1/7
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: orders() got an unexpected keyword argument 'days_order'
+ERROR 2024-06-24 01:12:40,446 basehttp 3768 9464 "GET /seminar3/orders/1/7 HTTP/1.1" 500 62974
+INFO 2024-06-24 01:13:29,824 autoreload 3768 23260 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:13:30,463 autoreload 10872 2996 Watching for file changes with StatReloader
+ERROR 2024-06-24 01:14:02,834 log 10872 1684 Internal Server Error: /seminar3/orders/1/7
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: orders() got an unexpected keyword argument 'days_order'
+ERROR 2024-06-24 01:14:02,837 basehttp 10872 1684 "GET /seminar3/orders/1/7 HTTP/1.1" 500 62974
+INFO 2024-06-24 01:14:28,489 autoreload 10872 2996 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:14:33,594 autoreload 21588 22788 Watching for file changes with StatReloader
+ERROR 2024-06-24 01:14:37,776 log 21588 2756 Internal Server Error: /seminar3/orders/1/7
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: orders() got an unexpected keyword argument 'days_order'
+ERROR 2024-06-24 01:14:37,778 basehttp 21588 2756 "GET /seminar3/orders/1/7 HTTP/1.1" 500 62974
+INFO 2024-06-24 01:16:55,110 autoreload 21588 22788 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:16:55,688 autoreload 20696 7868 Watching for file changes with StatReloader
+INFO 2024-06-24 01:17:28,213 autoreload 20696 7868 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:17:28,750 autoreload 21096 3756 Watching for file changes with StatReloader
+INFO 2024-06-24 01:18:05,211 autoreload 21096 3756 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:18:05,759 autoreload 6356 11596 Watching for file changes with StatReloader
+INFO 2024-06-24 01:18:10,258 autoreload 6356 11596 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:18:10,825 autoreload 11844 21916 Watching for file changes with StatReloader
+INFO 2024-06-24 01:18:21,514 autoreload 11844 21916 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:18:22,036 autoreload 22768 22612 Watching for file changes with StatReloader
+INFO 2024-06-24 01:18:35,960 autoreload 22768 22612 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:18:37,003 autoreload 22536 23536 Watching for file changes with StatReloader
+INFO 2024-06-24 01:18:42,301 autoreload 22536 23536 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:18:43,465 autoreload 16424 23504 Watching for file changes with StatReloader
+INFO 2024-06-24 01:18:44,930 autoreload 16424 23504 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:18:45,544 autoreload 6984 10344 Watching for file changes with StatReloader
+INFO 2024-06-24 01:18:52,948 autoreload 6984 10344 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:18:53,636 autoreload 9256 3964 Watching for file changes with StatReloader
+INFO 2024-06-24 01:18:56,060 autoreload 9256 3964 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:18:56,666 autoreload 2356 9340 Watching for file changes with StatReloader
+INFO 2024-06-24 01:19:02,938 autoreload 2356 9340 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:19:03,542 autoreload 14620 14292 Watching for file changes with StatReloader
+INFO 2024-06-24 01:19:04,967 autoreload 14620 14292 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:19:05,450 autoreload 7404 10724 Watching for file changes with StatReloader
+INFO 2024-06-24 01:19:09,741 autoreload 7404 10724 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:19:10,235 autoreload 14172 21580 Watching for file changes with StatReloader
+ERROR 2024-06-24 01:19:30,639 log 14172 16368 Internal Server Error: /seminar3/orders/1/7
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: orders() got an unexpected keyword argument 'days_order'
+ERROR 2024-06-24 01:19:30,642 basehttp 14172 16368 "GET /seminar3/orders/1/7 HTTP/1.1" 500 62974
+INFO 2024-06-24 01:20:37,647 autoreload 14172 21580 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\urls.py changed, reloading.
+INFO 2024-06-24 01:20:38,297 autoreload 22980 9580 Watching for file changes with StatReloader
+INFO 2024-06-24 01:20:39,535 autoreload 22980 9580 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\urls.py changed, reloading.
+INFO 2024-06-24 01:20:52,047 autoreload 18492 12308 Watching for file changes with StatReloader
+ERROR 2024-06-24 01:20:57,840 log 18492 3912 Internal Server Error: /seminar3/orders/1/7
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py", line 75, in order_s
+    return render(request, 'seminar3/oder3.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: seminar3/oder3.html
+ERROR 2024-06-24 01:20:57,844 basehttp 18492 3912 "GET /seminar3/orders/1/7 HTTP/1.1" 500 84261
+INFO 2024-06-24 01:21:48,260 autoreload 20796 22952 Watching for file changes with StatReloader
+ERROR 2024-06-24 01:21:52,002 log 20796 2724 Internal Server Error: /seminar3/orders/1/7
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py", line 75, in order_s
+    return render(request, 'seminar3/oder3.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: seminar3/oder3.html
+ERROR 2024-06-24 01:21:52,005 basehttp 20796 2724 "GET /seminar3/orders/1/7 HTTP/1.1" 500 84261
+INFO 2024-06-24 01:22:39,705 autoreload 20796 22952 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:22:41,075 autoreload 5204 3812 Watching for file changes with StatReloader
+INFO 2024-06-24 01:22:45,061 autoreload 5204 3812 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:22:45,655 autoreload 20000 10116 Watching for file changes with StatReloader
+INFO 2024-06-24 01:22:58,828 autoreload 20000 10116 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:22:59,413 autoreload 13704 20592 Watching for file changes with StatReloader
+INFO 2024-06-24 01:23:00,797 autoreload 13704 20592 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:23:01,317 autoreload 23500 9356 Watching for file changes with StatReloader
+INFO 2024-06-24 01:23:08,896 autoreload 23500 9356 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:23:10,240 autoreload 22508 3768 Watching for file changes with StatReloader
+INFO 2024-06-24 01:23:17,310 autoreload 22508 3768 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:23:18,341 autoreload 7520 22996 Watching for file changes with StatReloader
+ERROR 2024-06-24 01:24:17,090 log 7520 9108 Internal Server Error: /seminar3/orders/1/7
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py", line 75, in order_s
+    return render(request, 'seminar3/oder3.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: seminar3/oder3.html
+ERROR 2024-06-24 01:24:17,100 basehttp 7520 9108 "GET /seminar3/orders/1/7 HTTP/1.1" 500 84209
+INFO 2024-06-24 01:27:43,001 autoreload 7520 22996 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:27:43,651 autoreload 23484 22608 Watching for file changes with StatReloader
+INFO 2024-06-24 01:27:49,485 basehttp 23484 7268 "GET /seminar3/orders/1/7 HTTP/1.1" 200 458
+INFO 2024-06-24 01:28:03,100 basehttp 23484 7268 "GET /seminar3/orders/1/30 HTTP/1.1" 200 459
+INFO 2024-06-24 01:28:25,942 autoreload 23484 22608 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:28:26,500 autoreload 23068 17836 Watching for file changes with StatReloader
+INFO 2024-06-24 01:28:31,044 autoreload 23068 17836 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:28:31,568 autoreload 21132 4556 Watching for file changes with StatReloader
+INFO 2024-06-24 01:28:40,185 autoreload 21132 4556 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:28:41,755 autoreload 21104 10048 Watching for file changes with StatReloader
+INFO 2024-06-24 01:28:44,117 basehttp 21104 22564 "GET /seminar3/orders/1/30 HTTP/1.1" 200 341
+INFO 2024-06-24 01:29:18,376 basehttp 21104 22564 "GET /seminar3/orders/1/30 HTTP/1.1" 200 349
+INFO 2024-06-24 01:29:22,271 basehttp 21104 22564 "GET /seminar3/orders/1/30 HTTP/1.1" 200 349
+INFO 2024-06-24 01:29:51,888 basehttp 21104 22564 "GET /seminar3/orders/1/30 HTTP/1.1" 200 459
+INFO 2024-06-24 01:30:16,285 basehttp 21104 22564 "GET /seminar3/orders/1/30 HTTP/1.1" 200 464
+INFO 2024-06-24 01:30:44,607 basehttp 21104 22564 "GET /seminar3/orders/3/7 HTTP/1.1" 200 472
+INFO 2024-06-24 01:31:04,811 autoreload 21104 10048 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:31:05,364 autoreload 14620 23256 Watching for file changes with StatReloader
+INFO 2024-06-24 01:31:21,526 autoreload 14620 23256 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:31:22,093 autoreload 8176 21260 Watching for file changes with StatReloader
+INFO 2024-06-24 01:33:29,560 autoreload 22424 15920 Watching for file changes with StatReloader
+INFO 2024-06-24 01:34:12,221 autoreload 22424 15920 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\urls.py changed, reloading.
+INFO 2024-06-24 01:34:12,810 autoreload 12248 22788 Watching for file changes with StatReloader
+INFO 2024-06-24 01:34:21,536 basehttp 12248 13828 "GET /seminar3/orders/3/7 HTTP/1.1" 200 472
+INFO 2024-06-24 01:34:29,057 basehttp 12248 13828 "GET /seminar3/orders/1/7 HTTP/1.1" 200 462
+INFO 2024-06-24 01:35:08,620 autoreload 12248 22788 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-24 01:35:10,875 autoreload 2284 15136 Watching for file changes with StatReloader
+INFO 2024-06-24 01:36:43,410 autoreload 20284 16140 Watching for file changes with StatReloader
+INFO 2024-06-24 01:36:53,106 basehttp 20284 19376 "GET /seminar3/orders/1/12 HTTP/1.1" 200 463
+INFO 2024-06-24 01:37:00,275 basehttp 20284 19376 "GET /seminar3/orders/3/12 HTTP/1.1" 200 473
+INFO 2024-06-26 20:31:47,413 autoreload 16808 20692 Watching for file changes with StatReloader
+INFO 2024-06-26 20:32:01,124 views 16808 21392 Start page name
+INFO 2024-06-26 20:32:01,125 basehttp 16808 21392 "GET / HTTP/1.1" 200 101
+WARNING 2024-06-26 20:32:01,358 log 16808 21392 Not Found: /favicon.ico
+WARNING 2024-06-26 20:32:01,359 basehttp 16808 21392 "GET /favicon.ico HTTP/1.1" 404 2556
+INFO 2024-06-26 20:32:30,093 basehttp 16808 21392 "GET /seminar3/add_product HTTP/1.1" 301 0
+INFO 2024-06-26 20:32:30,126 basehttp 16808 20860 "GET /seminar3/add_product/ HTTP/1.1" 200 1321
+ERROR 2024-06-26 20:35:11,282 log 16808 20860 Internal Server Error: /seminar3/add_product/
+Traceback (most recent call last):
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\.venv_hometask\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py", line 60, in add_product
+    return render(request, 'seminar3/add_product.html', {'form': form, 'message': message})
+                                                                                  ^^^^^^^
+UnboundLocalError: cannot access local variable 'message' where it is not associated with a value
+ERROR 2024-06-26 20:35:11,285 basehttp 16808 20860 "POST /seminar3/add_product/ HTTP/1.1" 500 69977
+INFO 2024-06-26 20:36:06,606 autoreload 16808 20692 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-26 20:36:07,114 autoreload 19852 20880 Watching for file changes with StatReloader
+INFO 2024-06-26 20:36:09,603 autoreload 19852 20880 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-26 20:36:10,078 autoreload 11752 21216 Watching for file changes with StatReloader
+INFO 2024-06-26 20:36:13,367 autoreload 11752 21216 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-26 20:36:16,254 autoreload 20260 10156 Watching for file changes with StatReloader
+INFO 2024-06-26 20:36:17,707 autoreload 20260 10156 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-26 20:36:18,192 autoreload 12424 8176 Watching for file changes with StatReloader
+INFO 2024-06-26 20:36:20,649 autoreload 12424 8176 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\views.py changed, reloading.
+INFO 2024-06-26 20:36:21,138 autoreload 20452 1676 Watching for file changes with StatReloader
+INFO 2024-06-26 20:36:28,722 basehttp 20452 21204 "GET /seminar3/add_product/ HTTP/1.1" 200 1321
+INFO 2024-06-26 20:37:49,507 basehttp 20452 21204 "POST /seminar3/add_product/ HTTP/1.1" 200 1448
+INFO 2024-06-27 09:53:07,507 autoreload 14124 11272 Watching for file changes with StatReloader
+INFO 2024-06-27 09:53:08,380 basehttp 14124 17716 "GET /admin HTTP/1.1" 301 0
+INFO 2024-06-27 09:53:08,388 basehttp 14124 22964 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-06-27 09:53:08,430 basehttp 14124 22964 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-06-27 09:53:08,677 basehttp 14124 23276 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-06-27 09:53:08,681 basehttp 14124 23276 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-06-27 09:53:08,688 basehttp 14124 13560 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-06-27 09:53:08,690 basehttp 14124 22964 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-06-27 09:53:08,691 basehttp 14124 16264 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-06-27 09:53:08,696 basehttp 14124 17060 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-06-27 09:53:08,698 basehttp 14124 9868 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+WARNING 2024-06-27 09:53:08,771 log 14124 9868 Not Found: /favicon.ico
+WARNING 2024-06-27 09:53:08,773 basehttp 14124 9868 "GET /favicon.ico HTTP/1.1" 404 2556
+INFO 2024-06-27 09:53:40,963 autoreload 14124 11272 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\hometaskproject\settings.py changed, reloading.
+INFO 2024-06-27 09:53:41,408 autoreload 22560 3040 Watching for file changes with StatReloader
+INFO 2024-06-27 09:53:44,653 autoreload 22560 3040 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\hometaskproject\settings.py changed, reloading.
+INFO 2024-06-27 09:53:45,100 autoreload 20780 9228 Watching for file changes with StatReloader
+INFO 2024-06-27 09:53:49,595 basehttp 20780 11704 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-06-27 09:54:40,148 autoreload 19328 14472 Watching for file changes with StatReloader
+INFO 2024-06-27 10:08:40,154 autoreload 12788 3896 Watching for file changes with StatReloader
+INFO 2024-06-27 10:08:52,863 basehttp 12788 18036 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4626
+INFO 2024-06-27 10:09:14,060 basehttp 12788 18036 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4626
+INFO 2024-06-27 10:10:35,140 autoreload 17524 15116 Watching for file changes with StatReloader
+INFO 2024-06-27 10:10:44,981 basehttp 17524 10068 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-06-27 10:10:45,019 basehttp 17524 10068 "GET /admin/ HTTP/1.1" 200 7539
+INFO 2024-06-27 10:10:45,081 basehttp 17524 10068 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-06-27 10:10:45,089 basehttp 17524 10068 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-06-27 10:10:45,090 basehttp 17524 2812 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-06-27 10:10:49,299 basehttp 17524 2812 "GET /admin/auth/user/ HTTP/1.1" 200 13596
+INFO 2024-06-27 10:10:49,333 basehttp 17524 2812 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-06-27 10:10:49,334 basehttp 17524 21260 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-06-27 10:10:49,338 basehttp 17524 15824 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-06-27 10:10:49,339 basehttp 17524 2812 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-06-27 10:10:49,342 basehttp 17524 10068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:10:49,346 basehttp 17524 18468 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-06-27 10:10:49,348 basehttp 17524 15824 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-06-27 10:10:49,348 basehttp 17524 21260 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-06-27 10:10:49,351 basehttp 17524 10068 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-06-27 10:10:49,353 basehttp 17524 17184 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-06-27 10:10:49,354 basehttp 17524 2812 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-06-27 10:10:49,356 basehttp 17524 21260 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-06-27 10:10:49,366 basehttp 17524 21260 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-06-27 10:10:49,384 basehttp 17524 21260 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-06-27 10:10:49,386 basehttp 17524 2812 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-06-27 10:10:49,386 basehttp 17524 10068 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-06-27 10:11:10,630 basehttp 17524 10068 "POST /admin/auth/user/ HTTP/1.1" 200 8838
+INFO 2024-06-27 10:11:10,653 basehttp 17524 10068 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-06-27 10:11:11,990 basehttp 17524 10068 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2024-06-27 10:11:12,006 basehttp 17524 10068 "GET /admin/auth/user/ HTTP/1.1" 200 13247
+INFO 2024-06-27 10:11:12,029 basehttp 17524 10068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:11:45,442 basehttp 17524 10068 "GET /admin/seminar3/product/ HTTP/1.1" 200 13778
+INFO 2024-06-27 10:11:45,464 basehttp 17524 10068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:12:57,622 autoreload 7540 22964 Watching for file changes with StatReloader
+INFO 2024-06-27 10:13:21,581 autoreload 7540 22964 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:13:22,110 autoreload 22268 23160 Watching for file changes with StatReloader
+INFO 2024-06-27 10:13:24,311 basehttp 22268 396 "GET /admin/seminar3/klient/ HTTP/1.1" 200 8577
+INFO 2024-06-27 10:13:24,412 basehttp 22268 396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:13:26,594 basehttp 22268 396 "GET /admin/seminar3/klient/ HTTP/1.1" 200 8577
+INFO 2024-06-27 10:13:26,614 basehttp 22268 396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:17:25,501 autoreload 22268 23160 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:17:25,934 autoreload 19060 13436 Watching for file changes with StatReloader
+INFO 2024-06-27 10:17:28,180 autoreload 19060 13436 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:17:28,604 autoreload 7244 6040 Watching for file changes with StatReloader
+INFO 2024-06-27 10:17:30,844 autoreload 7244 6040 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:17:31,289 autoreload 19184 13144 Watching for file changes with StatReloader
+INFO 2024-06-27 10:17:33,584 autoreload 19184 13144 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:17:34,041 autoreload 12364 16584 Watching for file changes with StatReloader
+INFO 2024-06-27 10:17:37,361 autoreload 12364 16584 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:17:37,788 autoreload 10720 18440 Watching for file changes with StatReloader
+INFO 2024-06-27 10:17:46,324 autoreload 10720 18440 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:17:46,774 autoreload 9812 15768 Watching for file changes with StatReloader
+INFO 2024-06-27 10:17:48,049 autoreload 9812 15768 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:17:48,474 autoreload 3684 21788 Watching for file changes with StatReloader
+INFO 2024-06-27 10:17:49,735 autoreload 3684 21788 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:17:50,189 autoreload 10308 13476 Watching for file changes with StatReloader
+INFO 2024-06-27 10:17:51,554 autoreload 10308 13476 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:17:52,024 autoreload 11200 13372 Watching for file changes with StatReloader
+INFO 2024-06-27 10:17:57,554 autoreload 11200 13372 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:17:57,994 autoreload 11300 10020 Watching for file changes with StatReloader
+INFO 2024-06-27 10:18:00,424 autoreload 11300 10020 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:18:00,884 autoreload 22544 17716 Watching for file changes with StatReloader
+INFO 2024-06-27 10:31:26,281 autoreload 21472 18808 Watching for file changes with StatReloader
+INFO 2024-06-27 10:31:31,401 basehttp 21472 20372 "GET /admin/seminar3/klient/ HTTP/1.1" 200 9753
+INFO 2024-06-27 10:31:31,435 basehttp 21472 20372 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:31:35,784 basehttp 21472 20372 "GET /admin/seminar3/klient/ HTTP/1.1" 200 9753
+INFO 2024-06-27 10:31:35,809 basehttp 21472 20372 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:31:37,307 basehttp 21472 20372 "GET /admin/seminar3/klient/add/ HTTP/1.1" 200 11295
+INFO 2024-06-27 10:31:37,333 basehttp 21472 13404 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:31:37,422 basehttp 21472 20372 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-06-27 10:31:37,423 basehttp 21472 19696 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-06-27 10:31:37,428 basehttp 21472 20372 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-06-27 10:31:37,428 basehttp 21472 19696 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-06-27 10:32:18,058 basehttp 21472 19696 "POST /admin/seminar3/klient/add/ HTTP/1.1" 302 0
+INFO 2024-06-27 10:32:18,088 basehttp 21472 19696 "GET /admin/seminar3/klient/ HTTP/1.1" 200 13900
+INFO 2024-06-27 10:32:18,115 basehttp 21472 19696 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:32:31,853 basehttp 21472 19696 "GET /admin/seminar3/klient/add/ HTTP/1.1" 200 11295
+INFO 2024-06-27 10:32:31,877 basehttp 21472 19696 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:33:06,751 basehttp 21472 19696 "POST /admin/seminar3/klient/add/ HTTP/1.1" 302 0
+INFO 2024-06-27 10:33:06,775 basehttp 21472 19696 "GET /admin/seminar3/klient/ HTTP/1.1" 200 14637
+INFO 2024-06-27 10:33:06,803 basehttp 21472 19696 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:33:13,621 basehttp 21472 19696 "GET /admin/seminar3/klient/?q=8900 HTTP/1.1" 200 14246
+INFO 2024-06-27 10:33:13,646 basehttp 21472 19696 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:33:17,674 basehttp 21472 19696 "GET /admin/seminar3/klient/? HTTP/1.1" 200 14391
+INFO 2024-06-27 10:33:17,697 basehttp 21472 19696 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:33:25,459 autoreload 21472 18808 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:33:25,951 autoreload 23432 8732 Watching for file changes with StatReloader
+INFO 2024-06-27 10:33:49,952 autoreload 23432 8732 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:33:50,379 autoreload 2332 1632 Watching for file changes with StatReloader
+INFO 2024-06-27 10:37:54,273 autoreload 23236 23152 Watching for file changes with StatReloader
+INFO 2024-06-27 10:39:34,093 autoreload 23236 23152 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:39:34,556 autoreload 18604 12828 Watching for file changes with StatReloader
+INFO 2024-06-27 10:39:37,964 autoreload 18604 12828 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:39:38,409 autoreload 10536 16916 Watching for file changes with StatReloader
+INFO 2024-06-27 10:39:39,784 autoreload 10536 16916 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 10:39:40,273 autoreload 16716 23048 Watching for file changes with StatReloader
+INFO 2024-06-27 10:39:46,096 basehttp 16716 11688 "GET /admin/seminar3/klient/? HTTP/1.1" 200 14391
+INFO 2024-06-27 10:39:46,118 basehttp 16716 11688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:39:47,413 basehttp 16716 11688 "GET /admin/seminar3/order/ HTTP/1.1" 200 10973
+INFO 2024-06-27 10:39:47,435 basehttp 16716 11688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:39:50,540 basehttp 16716 11688 "GET /admin/seminar3/order/add/ HTTP/1.1" 200 12878
+INFO 2024-06-27 10:39:50,563 basehttp 16716 11688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:40:17,026 basehttp 16716 11688 "POST /admin/seminar3/order/add/ HTTP/1.1" 200 13093
+INFO 2024-06-27 10:40:17,052 basehttp 16716 11688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:40:29,049 basehttp 16716 11688 "POST /admin/seminar3/order/add/ HTTP/1.1" 302 0
+INFO 2024-06-27 10:40:29,070 basehttp 16716 11688 "GET /admin/seminar3/order/ HTTP/1.1" 200 13770
+INFO 2024-06-27 10:40:29,093 basehttp 16716 11688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:40:44,575 basehttp 16716 11688 "GET /admin/seminar3/order/add/ HTTP/1.1" 200 12878
+INFO 2024-06-27 10:40:44,595 basehttp 16716 11688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:40:53,740 basehttp 16716 11688 "POST /admin/seminar3/order/add/ HTTP/1.1" 302 0
+INFO 2024-06-27 10:40:53,761 basehttp 16716 11688 "GET /admin/seminar3/order/ HTTP/1.1" 200 14185
+INFO 2024-06-27 10:40:53,789 basehttp 16716 11688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:40:58,627 basehttp 16716 11688 "GET /admin/seminar3/order/?order_klient__id__exact=6 HTTP/1.1" 200 14331
+INFO 2024-06-27 10:40:58,652 basehttp 16716 11688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:41:01,970 basehttp 16716 11688 "GET /admin/seminar3/order/?order_klient__id__exact=5 HTTP/1.1" 200 14325
+INFO 2024-06-27 10:41:01,993 basehttp 16716 11688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:41:03,554 basehttp 16716 11688 "GET /admin/seminar3/order/? HTTP/1.1" 200 13954
+INFO 2024-06-27 10:41:03,579 basehttp 16716 11688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:57:57,263 autoreload 12992 16228 Watching for file changes with StatReloader
+INFO 2024-06-27 10:58:03,073 basehttp 12992 6040 "GET /admin/seminar3/order/? HTTP/1.1" 200 13954
+INFO 2024-06-27 10:58:03,094 basehttp 12992 6040 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:58:05,450 basehttp 12992 6040 "GET /admin/seminar3/product/ HTTP/1.1" 200 13778
+INFO 2024-06-27 10:58:05,472 basehttp 12992 6040 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:58:13,199 basehttp 12992 6040 "GET /admin/seminar3/product/1/change/ HTTP/1.1" 200 13047
+INFO 2024-06-27 10:58:13,228 basehttp 12992 18368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-27 10:58:13,293 basehttp 12992 6040 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+WARNING 2024-06-27 10:59:30,532 log 12992 6040 Not Found: /media/media/набор_прод_1.jpg
+WARNING 2024-06-27 10:59:30,533 basehttp 12992 6040 "GET /media/media/%D0%BD%D0%B0%D0%B1%D0%BE%D1%80_%D0%BF%D1%80%D0%BE%D0%B4_1.jpg HTTP/1.1" 404 2670
+INFO 2024-06-27 10:59:32,533 basehttp 12992 6040 "GET /admin/seminar3/product/1/change/ HTTP/1.1" 200 13047
+INFO 2024-06-27 11:02:20,204 autoreload 16064 22960 Watching for file changes with StatReloader
+INFO 2024-06-27 11:02:52,176 autoreload 16064 22960 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 11:02:52,617 autoreload 15512 22776 Watching for file changes with StatReloader
+INFO 2024-06-27 11:02:53,841 autoreload 15512 22776 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 11:02:54,308 autoreload 17084 3036 Watching for file changes with StatReloader
+INFO 2024-06-27 11:06:08,039 autoreload 17084 3036 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 11:06:08,502 autoreload 23284 7736 Watching for file changes with StatReloader
+INFO 2024-06-27 11:06:09,839 autoreload 23284 7736 C:\GeekBrains_lesson_cod\Django\home_task\hometaskproject\seminar3\admin.py changed, reloading.
+INFO 2024-06-27 11:06:10,326 autoreload 15728 20860 Watching for file changes with StatReloader
+INFO 2024-06-27 11:06:13,695 basehttp 15728 17240 "GET /admin/seminar3/product/1/change/ HTTP/1.1" 200 13047
+INFO 2024-06-27 11:06:13,728 basehttp 15728 17240 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
